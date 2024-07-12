@@ -352,7 +352,7 @@ b{
 }
 .SkillBox:hover{
   transform: scale(1.2);
-  box-shadow: 0 2px 8px 0 #431f47;
+  box-shadow: 0 2px 8px 0 #982ca4;
 }
 
 .SkillsHeading{
