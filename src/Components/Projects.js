@@ -11,9 +11,9 @@ const Projects = () => {
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
         <ProjectBox projectPhoto={WigglesImage} projectName="PRACTO" />
-        <ProjectBox projectPhoto={NewsletterImage} projectName="Newsletter" />
-        <ProjectBox projectPhoto={RogfreeImage} projectName="RogFree" />
-        <ProjectBox projectPhoto={TindogImage} projectName="Tindog" />
+        {/* <ProjectBox projectPhoto={NewsletterImage} projectName="Newsletter" /> */}
+        {/* <ProjectBox projectPhoto={RogfreeImage} projectName="RogFree" /> */}
+        {/* <ProjectBox projectPhoto={TindogImage} projectName="Tindog" /> */}
       </div>
 
     </div>
