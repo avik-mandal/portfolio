@@ -229,8 +229,13 @@ b{
 }
 
 .illustration{
+  margin-left: 0%;
   width: 400px;
   height: 400px;
+}
+.Avatar
+{
+    height: 400px;
 }
 
 @media(max-width:900px){
