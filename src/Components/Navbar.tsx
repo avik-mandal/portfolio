@@ -22,6 +22,8 @@ import PersonIcon from '@mui/icons-material/Person';
 import CodeIcon from '@mui/icons-material/Code';
 import DescriptionIcon from '@mui/icons-material/Description';
 import EmailIcon from '@mui/icons-material/Email';
+import BuildIcon from '@mui/icons-material/Build';
+import PsychologyIcon from '@mui/icons-material/Psychology';
 import CloseIcon from '@mui/icons-material/Close';
 
 const StyledAppBar = styled(AppBar, {
@@ -116,7 +118,9 @@ const Nav: React.FC = () => {
   const menuItems = [
     { text: 'Home', icon: <HomeIcon />, path: '/' },
     { text: 'About', icon: <PersonIcon />, path: '/About' },
-    { text: 'Project', icon: <CodeIcon />, path: '/Project' },
+    { text: 'Skills', icon: <PsychologyIcon />, path: '/Skills' },
+    { text: 'Projects', icon: <CodeIcon />, path: '/Project' },
+    { text: 'Services', icon: <BuildIcon />, path: '/Services' },
     { text: 'Resume', icon: <DescriptionIcon />, path: '/Resume' },
     { text: 'Contact', icon: <EmailIcon />, path: '/Contact' },
   ];

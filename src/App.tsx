@@ -8,6 +8,8 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Project from "./Components/Projects";
 import Contact from "./Components/Contact";
+import Services from "./Components/Services";
+import SkillsShowcase from "./Components/SkillsShowcase";
 import MoveToTop from "./Components/MoveToTop";
 import Lottie from "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
@@ -52,6 +54,8 @@ function App() {
                         <Route path="/Project" element={<Project />} />
                         <Route path="/Resume" element={<Resume />} />
                         <Route path="/Contact" element={<Contact />} />
+                        <Route path="/Services" element={<Services />} />
+                        <Route path="/Skills" element={<SkillsShowcase />} />
                     </Routes>
 
                     <Footer />
