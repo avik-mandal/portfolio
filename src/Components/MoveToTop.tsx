@@ -2,13 +2,16 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const MoveToTop: React.FC = () => {
-    const path = useLocation();
+  const location = useLocation();
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [path]);
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }, [location]);
 
-    return null;
+  return null;
 };
 
-export default MoveToTop;;
+export default MoveToTop;
