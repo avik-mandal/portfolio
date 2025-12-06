@@ -1,0 +1,19 @@
+import React from 'react';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
+
+const Footer: React.FC = () => {
+    return (
+        <footer>
+            <h4>Developed by Avik Mandal</h4>
+            <h4>Copyright &copy; 2024 AM</h4>
+            <div className='footerLinks'>
+                <a href="https://github.com/avik-mandal" target='_blank' rel="noreferrer"><FaGithub /></a>
+                <a href="https://www.linkedin.com/in/avik-mandal-a901b7294" target='_blank' rel="noreferrer"><FaLinkedin /></a>
+                <a href='mailto:avikmandal2022@gmail.com' target='_blank' rel="noreferrer"><GrMail /></a>
+            </div>
+        </footer>
+    );
+};
+
+export default Footer;
