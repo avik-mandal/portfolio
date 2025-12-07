@@ -76,3 +76,4 @@ If EmailJS is not configured, the form will automatically fall back to opening t
 
 The Public Key is safe to expose in frontend code. EmailJS uses it to identify your account, but it doesn't grant full access. Never share your Private Key or API Secret.
 
+
